@@ -1,0 +1,12 @@
+name: GladiaFactionAPI
+version: 1.0
+main: fr.gladia.mc.gladiafactionapi.GladiaFactionAPI
+commands:
+  ranking:
+    description: Display factions ranking
+  factionpoints:
+    description: Edit ranking points of a faction
+    permission: factionpoints.use
+  playerpoints:
+    description: Edit ranking points of a player's faction
+    permission: playerpoints.use

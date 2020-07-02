@@ -1,0 +1,18 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: database
+  username: user
+  password: password
+  tableFaction: gladia_faction
+  tableMember: gladia_member
+
+messages:
+  connectionSuccess: §aConnection etablished
+  failedConnectDatabase: §cConnection error
+  classNotFound: §cCan''t find MySQL class
+  cantGetData: §cCan''t get data from MySQL
+  cantUpdateData: §cCan't update datas to MySQL
+  failedPrepareStatement: §cFailed to prepare Mysql request
+  gavePoints: §aYou gave %POINTS% points to the faction %FACTIOn%
+  receivedPoints: §aYour faction received %POINTS% points
